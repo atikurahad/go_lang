@@ -29,8 +29,13 @@ func main (){
 	 country = "Bangladesh"
 	 age = 25
 	 cgpa = 3.15
-	
 
+
+	 //get input 
+	 fmt.Print("Enter your name")
+	 fmt.Scan(&fullName)
+	
+//print output
 fmt.Println(fullName , "i am" ,age, "years old")
 fmt.Println("I live in", country)
 fmt.Println("My cgpa is " ,cgpa,)
