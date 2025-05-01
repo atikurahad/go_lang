@@ -33,6 +33,9 @@ func main() {
 	fmt.Print("Enter your age")
 	fmt.Scan(&age)
 
+	fmt.Print("Enter your country")
+	fmt.Scan(&country)
+
 	//print output
 	fmt.Println(fullName, "i am", age, "years old")
 	fmt.Println("I live in", country)
