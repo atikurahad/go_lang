@@ -36,6 +36,27 @@ func main() {
 	fmt.Print("Enter your country")
 	fmt.Scan(&country)
 
+	// Using 8-bit unsigned int
+	var X uint8 = 225
+	fmt.Println(X, X-3)
+
+	// Using 16-bit signed int
+	var Y int16 = 32767
+	fmt.Println(Y+2, Y-2)
+
+	var x int16 = 170
+	var y int16 = 83
+	//Addition
+	fmt.Printf(" addition :  %d + %d = %d\n ", x, y, x+y)
+	//Subtraction
+	fmt.Printf("subtraction : %d - %d = %d\n", x, y, x-y)
+	//Multiplication
+	fmt.Printf(" multiplication : %d * %d = %d\n", x, y, x*y)
+	//Division
+	fmt.Printf(" division : %d / %d = %d\n", x, y, x/y)
+	//Modulus
+	fmt.Printf(" remainder : %d %% %d = %d\n", x, y, x%y)
+
 	//print output
 	fmt.Println(fullName, "i am", age, "years old")
 	fmt.Println("I live in", country)
